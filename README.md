@@ -13,6 +13,7 @@ Bivariate and univariate analysis were conducted on the data to help determine a
 
 ## Requirements
 The libraries required for this project included:
+
       pandas - for performing data analysis and cleaning.
 
       numpy - used for fast matrix operations.
@@ -23,7 +24,6 @@ The libraries required for this project included:
   
 The language used was python3 and the classifier chosen for the project was the random forest classifier.  
 
-## Support and contact details
 
 ### License
 
