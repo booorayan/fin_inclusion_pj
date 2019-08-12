@@ -22,7 +22,8 @@ The libraries required for this project included:
 The language used was python3 and the classifier chosen for the project was the random forest classifier.  
 
 ## Description
-The objective of the project is to create a machine learning model that predicts if an individual owns a bank account or not. This information (i.e. on possession of bank account) can in turn be used to predict the state of financial inclusion in a given region (East Africa). The dataset used contains information on four East African countries, Tanzania, Uganda, Kenya and Rwanda. The first step was to conduct data cleaning, e.g. dropping missing/null values from the dataset because they accounted for less than 5% of the data (missing values were only 1.1% of the total observations).
+The objective of the project is to create a machine learning model that predicts if an individual owns a bank account or not. This information (i.e. on possession of bank account) can in turn be used to predict the state of financial inclusion in a given region (East Africa). The dataset used contains information on four East African countries, Tanzania, Uganda, Kenya and Rwanda. 
+
 Bivariate and univariate analysis were conducted on the data to help determine appropriate features. Prinicpal component analysis was used for dimensionality reduction and the Random Forests Classifier was used to create the model. 
 
 
@@ -47,6 +48,10 @@ Involved data cleaning to remove missing values and ensure uniformity of data.
             fin.dropna(inplace=True)
 
             ind = fin[(fin['year'] > 2018) | (fin['education_level'] == '6')].index
+            fin.drop(ind, inplace=True)
+ 
+ The missing values were dropped because they account for negligible percent (only 1%) of the total observations
+ Rows with years greater than 2018 or an education level of 6 were dropped because they considered as anomalies
 
 ####   4.   Modelling: 
 Involved the processes of selecting a model technique, selecting the features and labels for the model, generating a test design, building the model and evaluating the performance of the model. 
