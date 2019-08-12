@@ -50,7 +50,7 @@ Involved data cleaning to remove missing values and ensure uniformity of data.
             ind = fin[(fin['year'] > 2018) | (fin['education_level'] == '6')].index
             fin.drop(ind, inplace=True)
  
- The missing values were dropped because they account for negligible percent (only 1%) of the total observations
+ The missing values were dropped because they account for a negligible percent (only 1%) of the total observations
  Rows with years greater than 2018 or an education level of 6 were dropped because they considered as anomalies
 
 ####   4.   Modelling: 
