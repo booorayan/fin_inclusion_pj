@@ -1,6 +1,6 @@
 # A Simple ML Model that Predicts Whether an Individual from East Africa Owns a Bank Account
 
-#### The project involves the creation of a simple machine learning model that predicts whether individuals situated in East Africa own a bank or not. Owning a bank account is an indicator of access to financial services and financial inclusion. Therefore, one can use the model to predict the state of financial inclusion in the regions covered in the dataset. 
+#### The project involves the creation of a simple machine learning model that predicts whether individuals situated in East Africa own a bank account or not. Owning a bank account can serve as an indicator of access to financial services and financial inclusion. Therefore, one can use the model to predict the state of financial inclusion in the regions covered in the dataset. 
 
 #### The dataset used for this project was obtained from here http://bit.ly/FinancialDataset and it includes data from 2016 - 2018. 
 
